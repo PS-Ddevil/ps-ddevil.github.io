@@ -1,0 +1,29 @@
+.sectionStyle{
+    width: 100%;
+    min-height: 720px;
+    background-image: url(../img/wallpaper1.jpg);
+    background-size: cover;
+}
+
+#main_id{
+  padding-top: 30vh;
+  padding-bottom: 70vh;
+  height: 30vh;
+}
+
+#main-pic{
+  width: 100px;
+}
+
+#main-text{ 
+  font-size: 50px;
+  color: white;
+}
+
+#about-btn, #proj-btn, #res-btn {
+  color: white;
+}
+
+#about-btn:hover, #proj-btn:hover, #res-btn:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
