@@ -1,3 +1,36 @@
 #main-proj-bdy{
     margin-top: 100px;
 }
+
+#head-project{
+    text-align: center;
+    font-weight: 900;
+    text-decoration-line: underline;
+    margin-bottom: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.list-project{
+    margin-bottom: 40px;
+}
+
+.projsection{
+    margin-top: 40px;
+}
+
+.sectionhead{
+    margin-bottom: 10px;
+    font-family: 'Bitter', serif;
+}
+
+.gap-gen{
+    min-height: 30px;
+}
+
+.status, .content, .duration{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.projectname{
+    font-family: 'Slabo 27px', serif;
+}

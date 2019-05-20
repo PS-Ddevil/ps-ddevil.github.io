@@ -3,8 +3,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
-import {Link} from 'react-router-dom';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import dp from '../img/dp.jpg';
 
 import '../css/About.css';
@@ -76,6 +75,30 @@ class About extends Component{
                     </center>
                 </Container>
             </Jumbotron>
+            <Container>
+                <h1 id="journey">My Journey!</h1>
+            </Container>
+            <Container id="journeysection">
+                <hr></hr>
+                <div className="left">
+                    <h3><i class='fas fa-graduation-cap'></i> Bachelors</h3>
+                    <span>Indian Institute of Technology, Mandi</span><br></br>
+                    <span>CGPA: 8.35 (Till 3rd Semester)</span><br></br>
+                </div>
+                <hr></hr>
+                <div className="right">
+                    <h3><i class='fas fa-graduation-cap'></i> Higher Secondary</h3>
+                    <span>Shiv Jyoti Convent School, Kota</span><br></br>
+                    <span>Percentage: 94.2%</span><br></br>
+                </div>
+                <hr></hr>
+                <div className="left">
+                    <h3><i class='fas fa-graduation-cap'></i> High School</h3>
+                    <span>Sunbeam School, Varuna</span><br></br>
+                    <span>CGPA: 10</span><br></br>
+                </div>
+                <hr></hr>
+            </Container>
             </div>
         );
     }

@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const path = require('path');
 
-const items = require('./routes/api/items');
+const webprojects = require('./routes/api/webproj');
+const interdisprojects = require('./routes/api/interdisproj');
 
 const app = express();
 
@@ -24,7 +25,8 @@ mongoose.connect(db, {useNewUrlParser: true})
     .then(() => console.log('MongoDB Connected...'))
     .catch(err => console.log(err));
 
-app.use('/api/items', items);
+app.use('/api/webproj', webprojects);
+app.use('/api/interdisproj', interdisprojects);
 
 // Serve static assests if in production
 if(process.env.NODE_ENV === 'production'){

@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import Button from 'react-bootstrap/Button';
 
-import 'aos/dist/aos.css'
+import 'aos/dist/aos.css';
 import AOS from 'aos';
 
-import psinha from '../img/psinha.png'
+import psinha from '../img/psinha.png';
+import pdf from '../pdf/resume.pdf';
 
 import '../css/Landing.css'
 
@@ -29,7 +30,7 @@ class Landing extends Component {
                 <center>
                   <Link to="/about" id="link-btn"><Button variant="outline-light" id="about-btn">About Me</Button></Link>{' '}
                   <Link to="/projects" id="link-btn"><Button variant="outline-light" id="proj-btn">Projects</Button></Link>{' '}
-                  <a href="/pdf/resume.pdf" id="link-btn" download><Button variant="outline-light" id="res-btn">Resume</Button></a>
+                  <a href={pdf} id="link-btn" download><Button variant="outline-light" id="res-btn">Resume</Button></a>
                 </center>
             </div>
         </div>

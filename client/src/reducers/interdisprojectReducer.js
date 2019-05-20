@@ -1,24 +1,23 @@
-import { GET_PROJECTS, PROJECTS_LOADING } from '../action/types';
+import { GET_INTER_PROJECTS, INTER_PROJECTS_LOADING } from '../action/types';
 
 const initialState = {
-    projects:[],
+    interdisprojects:[],
     loading: false
 }
 
 export default function(state = initialState, action){
     switch(action.type){
-        case GET_PROJECTS:
+        case GET_INTER_PROJECTS:
             return{
                 ...state,
-                projects: action.payload,
+                interdisprojects: action.payload,
                 loading: false
             };
-        case PROJECTS_LOADING:
+        case INTER_PROJECTS_LOADING:
             return {
                 ...state,
                 loading: true
             }
-
             default: 
                 return state;
     }
