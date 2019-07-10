@@ -11,6 +11,7 @@ import '../css/About.css';
 const renderTooltip = props => (
     <div
       {...props}
+      
       style={{
         backgroundColor: 'white',
         padding: '2px 10px',
@@ -42,14 +43,14 @@ class About extends Component{
                         <h6>Computer Science and Engineering</h6>
                         <hr className="my-2" />
                         <Row>
-                            <Col xs="2" md="2" lg="2" sm="2" xl="2">
+                            <Col xs="12" md="2" lg="2" sm="12" xl="2">
                                 <span class="head">Institute:</span><br></br>
                                 <span class="head">Age:</span><br></br>
                                 <span class="head">Location:</span><br></br>
                                 <span class="head">Email:</span><br></br>
                                 <span class="head">Phone:</span><br></br>
                             </Col>
-                            <Col xs="10" md="10" lg="10" sm="10" xl="10">
+                            <Col xs="12" md="10" lg="10" sm="12" xl="10">
                                 <span class="desp">Indian Institute of Technology, Mandi</span><br></br>
                                 <sapn class="desp">20 years</sapn><br></br>
                                 <span class="desp">Varanasi/Mandi</span><br></br>
