@@ -30,7 +30,7 @@ class Landing extends Component {
                 <center>
                   <Link to="/about" id="link-btn"><Button variant="outline-light" id="about-btn">About Me</Button></Link>{' '}
                   <Link to="/projects" id="link-btn"><Button variant="outline-light" id="proj-btn">Projects</Button></Link>{' '}
-                  <Link to="https://ps-ddevil.github.io/blogs/" id="link-btn"><Button variant="outline-light" id="proj-btn">Blogs</Button></Link>{' '}
+                  <a href="https://ps-ddevil.github.io/blogs/" id="link-btn"><Button variant="outline-light" id="proj-btn">Blogs</Button></a>{' '}
                   <a href={pdf} id="link-btn" download><Button variant="outline-light" id="res-btn">Resume</Button></a>
                 </center>
             </div>
